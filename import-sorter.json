@@ -1,0 +1,81 @@
+{
+  "generalConfiguration.sortOnBeforeSave": true,
+  "importStringConfiguration.tabSize": 2,
+  "importStringConfiguration.hasSemicolon": false,
+  "importStringConfiguration.numberOfEmptyLinesAfterAllImports": 1,
+  "importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 100,
+  "importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
+  "importSorter.importStringConfiguration.trailingComma": "es5",
+  "sortConfiguration": {
+    "customOrderingRules": {
+      "rules": [
+        {
+          "type": "path",
+          "regex": "^$",
+          "orderLevel": 0,
+          "disableSort": true
+        },
+        {
+          "regex": "^react$|^./styles$",
+          "orderLevel": 1,
+          "disableSort": true
+        },
+        {
+          "regex": "^./|^../",
+          "orderLevel": 2,
+          "disableSort": true
+        },
+        {
+          "regex": "^styles",
+          "orderLevel": 3,
+          "disableSort": true
+        },
+        {
+          "regex": "^routes",
+          "orderLevel": 4,
+          "disableSort": true
+        },
+        {
+          "regex": "^pages",
+          "orderLevel": 5,
+          "disableSort": true
+        },
+        {
+          "regex": "^locales",
+          "orderLevel": 6,
+          "disableSort": true
+        },
+        {
+          "regex": "^utils",
+          "orderLevel": 7,
+          "disableSort": true
+        },
+        {
+          "regex": "^services/api",
+          "orderLevel": 8,
+          "disableSort": true
+        },
+        {
+          "regex": "^store",
+          "orderLevel": 9,
+          "disableSort": true
+        },
+        {
+          "regex": "^hoc",
+          "orderLevel": 10,
+          "disableSort": true
+        },
+        {
+          "regex": "^assets",
+          "orderLevel": 11,
+          "disableSort": true
+        },
+        {
+          "regex": "^components",
+          "orderLevel": 12,
+          "disableSort": true
+        }
+      ]
+    }
+  }
+}
